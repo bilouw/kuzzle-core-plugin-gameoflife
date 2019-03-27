@@ -1,0 +1,4 @@
+{
+  "name": "kuzzle-core-plugin-gameoflife",
+  "kuzzleVersion": ">=1.4.2 <2.0.0"
+}

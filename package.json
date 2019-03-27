@@ -1,0 +1,33 @@
+{
+  "name": "kuzzle-core-plugin-gameoflife",
+  "author": "The Kuzzle Team <support@kuzzle.io>",
+  "version": "1.1.1",
+  "description": "Kuzzle plugin gameOfLife",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run --silent lint && npm run functional-testing",
+    "lint": "eslint --max-warnings=0 ./lib ./features",
+    "functional-testing": "bash run-features.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuzzleio/kuzzle-core-plugin-gameoflife.git"
+  },
+  "keywords": [
+    "kuzzle",
+    "plugin",
+    "gameoflife"
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kuzzleio/kuzzle-core-plugin-gameoflife/issues"
+  },
+  "homepage": "https://github.com/kuzzleio/kuzzle-core-plugin-gameoflife#readme",
+  "devDependencies": {
+    "cucumber": "^5.0.1",
+    "eslint": "^5.6.0",
+    "kuzzle-sdk": "^5.0.13",
+    "nexpect": "^0.5.0"
+  },
+  "dependencies": {}
+}

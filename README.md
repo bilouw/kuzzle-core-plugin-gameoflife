@@ -1,0 +1,1 @@
+# kuzzle-core-plugin-gameoflife
