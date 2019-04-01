@@ -17,5 +17,7 @@ Go here to install docker : https://docs.docker.com/install/
 From a terminal :
 
 * `git clone https://github.com/bilouw/kuzzle-core-plugin-gameoflife.git`
-* `cd kuzzle-core-plugin-gameoflife/docker`
+* `cd kuzzle-core-plugin-gameoflife`
+* `npm install`
+* `cd docker`
 * `docker-compose up`
